@@ -24,11 +24,11 @@ contract Onther2 {
         _;
     }
 
-    function mainpotin() public view returns (string memory) {
+    function mainPoint() public view returns (string memory) {
         return onther.name();
     }
 
-    function subpoint(uint x, uint y) public pure returns (uint) {
+    function subPoint(uint x, uint y) public pure returns (uint) {
         return add(x, y);
     }
 
@@ -37,5 +37,6 @@ contract Onther2 {
     function doSomething() public pure returns (string memory) {
         return "Hello World!";
     }
+    
 }
 
