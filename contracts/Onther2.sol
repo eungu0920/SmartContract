@@ -24,17 +24,17 @@ contract Onther2 {
         _;
     }
 
-    function mainpotin() view public returns (string memory) {
+    function mainpotin() public view returns (string memory) {
         return onther.name();
     }
 
-    function subpoint(uint x, uint y) pure public returns (uint) {
+    function subpoint(uint x, uint y) public pure returns (uint) {
         return add(x, y);
     }
 
-    function shortFunction() pure public returns (uint) { return MY_STUDENT_NUMBER; }
+    function shortFunction() public pure returns (uint) { return MY_STUDENT_NUMBER; }
 
-    function doSomething() pure public returns (string memory) {
+    function doSomething() public pure returns (string memory) {
         return "Hello World!";
     }
 }
