@@ -390,6 +390,49 @@
       "artifacts": [
         "StaticcallEx"
       ]
+    },
+    "/Users/gray/Desktop/Korea Univ./2023학년도_2학기/Smart Contract/Practice/SmartContract/contracts/TransferSendEx.sol": {
+      "lastModificationDate": 1695656141684,
+      "contentHash": "24d5b3c86c15b950811f07f7776b5954",
+      "sourceName": "contracts/TransferSendEx.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TransferSendEx"
+      ]
     }
   }
 }
