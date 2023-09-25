@@ -1,8 +1,138 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/gray/Desktop/exampleOne/contracts/Onther.sol": {
-      "lastModificationDate": 1694684840185,
+    "/Users/gray/Desktop/Korea Univ./2023학년도_2학기/Smart Contract/Practice/SmartContract/contracts/CompareEx.sol": {
+      "lastModificationDate": 1695654372272,
+      "contentHash": "4c066cf2138f30598f1f7eaf8336b71d",
+      "sourceName": "contracts/CompareEx.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ContractA",
+        "ContractB"
+      ]
+    },
+    "/Users/gray/Desktop/Korea Univ./2023학년도_2학기/Smart Contract/Practice/SmartContract/contracts/DynamicArrayExample.sol": {
+      "lastModificationDate": 1695644046556,
+      "contentHash": "c31dffd0ca034c189e73f1ae8d735d46",
+      "sourceName": "contracts/DynamicArrayExample.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "DynamicArrayExample"
+      ]
+    },
+    "/Users/gray/Desktop/Korea Univ./2023학년도_2학기/Smart Contract/Practice/SmartContract/contracts/GasLeftEx.sol": {
+      "lastModificationDate": 1695652376821,
+      "contentHash": "6188c8133c24b7882eb63fd8dd7828bd",
+      "sourceName": "contracts/GasLeftEx.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GasLeftEx"
+      ]
+    },
+    "/Users/gray/Desktop/Korea Univ./2023학년도_2학기/Smart Contract/Practice/SmartContract/contracts/Onther.sol": {
+      "lastModificationDate": 1695644046556,
       "contentHash": "328b655e3e069503054b2f474a6b31d4",
       "sourceName": "contracts/Onther.sol",
       "solcConfig": {
@@ -44,9 +174,9 @@
         "Onther"
       ]
     },
-    "/Users/gray/Desktop/exampleOne/contracts/Onther2.sol": {
-      "lastModificationDate": 1694684920420,
-      "contentHash": "ed332d7c697a73c738d9ad9fe4a2b078",
+    "/Users/gray/Desktop/Korea Univ./2023학년도_2학기/Smart Contract/Practice/SmartContract/contracts/Onther2.sol": {
+      "lastModificationDate": 1695644046556,
+      "contentHash": "2ec4b3444f03ae7e186a8b05a9cf178e",
       "sourceName": "contracts/Onther2.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -87,6 +217,135 @@
       ],
       "artifacts": [
         "Onther2"
+      ]
+    },
+    "/Users/gray/Desktop/Korea Univ./2023학년도_2학기/Smart Contract/Practice/SmartContract/contracts/PayableEx.sol": {
+      "lastModificationDate": 1695644046556,
+      "contentHash": "d4e35a378555f50fe028b3ebc633de8f",
+      "sourceName": "contracts/PayableEx.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "PayableEx"
+      ]
+    },
+    "/Users/gray/Desktop/Korea Univ./2023학년도_2학기/Smart Contract/Practice/SmartContract/contracts/SmartContract.sol": {
+      "lastModificationDate": 1695644046557,
+      "contentHash": "afea6a3d7cddee396220aa90c69de563",
+      "sourceName": "contracts/SmartContract.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "SmartContract"
+      ]
+    },
+    "/Users/gray/Desktop/Korea Univ./2023학년도_2학기/Smart Contract/Practice/SmartContract/contracts/TrafficLight.sol": {
+      "lastModificationDate": 1695644046557,
+      "contentHash": "53a6cad981abdd9db3d4c9e93c73a11f",
+      "sourceName": "contracts/TrafficLight.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "TrafficLight"
       ]
     }
   }
