@@ -9,7 +9,6 @@ contract ContractA {
 
         return (msg.sender, tx.origin, bMsgSender, bTxOrigin);
     }
-
 }
 
 
