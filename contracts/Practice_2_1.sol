@@ -39,6 +39,11 @@ contract BaseContract {
 }
 
 contract DerivedContract is BaseContract {
+    struct Student {
+        string name;
+        uint studentNumber;
+    }
+
     function callInternalFunction() public pure returns (string memory) {
         return internalFunction();
     }
@@ -49,5 +54,14 @@ contract DerivedContract is BaseContract {
 
     function callPrivateFunction() public pure returns (string memory) {
         return callPrivate();
+    }
+    
+    // struct type return
+    function getStruct(string memory _name, uint _number) public pure returns (Student memory) {
+        Student memory student = Student({
+            name: _name,
+            studentNumber: _number
+        });
+        return student;
     }
 }
