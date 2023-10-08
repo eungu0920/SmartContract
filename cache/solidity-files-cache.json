@@ -433,6 +433,225 @@
       "artifacts": [
         "TransferSendEx"
       ]
+    },
+    "/Users/gray/Desktop/Korea Univ./2023학년도_2학기/Smart Contract/Practice/SmartContract/contracts/1_1.sol": {
+      "lastModificationDate": 1696788230626,
+      "contentHash": "a9257765f8dae56b2b9ee4faaf357008",
+      "sourceName": "contracts/1_1.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Child",
+        "GrandParent",
+        "Parent"
+      ]
+    },
+    "/Users/gray/Desktop/Korea Univ./2023학년도_2학기/Smart Contract/Practice/SmartContract/contracts/1_2.sol": {
+      "lastModificationDate": 1696788295689,
+      "contentHash": "85ccce62bb657b14880d53ad6638027e",
+      "sourceName": "contracts/1_2.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LibraryEx",
+        "SafeMath"
+      ]
+    },
+    "/Users/gray/Desktop/Korea Univ./2023학년도_2학기/Smart Contract/Practice/SmartContract/contracts/1_3.sol": {
+      "lastModificationDate": 1696788308633,
+      "contentHash": "5de8e7ba66931b2365164e6758c9e5f0",
+      "sourceName": "contracts/1_3.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/gray/Desktop/Korea Univ./2023학년도_2학기/Smart Contract/Practice/SmartContract/contracts/Practice_1.sol": {
+      "lastModificationDate": 1696487134120,
+      "contentHash": "9223008bf531edea3c761c00392372cc",
+      "sourceName": "contracts/Practice_1.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "A"
+      ]
+    },
+    "/Users/gray/Desktop/Korea Univ./2023학년도_2학기/Smart Contract/Practice/SmartContract/contracts/Practice_2_1.sol": {
+      "lastModificationDate": 1696509902149,
+      "contentHash": "ad1b62262954d263876d42e2289a9c82",
+      "sourceName": "contracts/Practice_2_1.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BaseContract",
+        "DerivedContract"
+      ]
     }
   }
 }
