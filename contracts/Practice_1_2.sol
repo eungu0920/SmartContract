@@ -1,20 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract Unchecked {
-    function f(uint8 a, uint8 b) pure public returns (uint) {
-        unchecked { return a - b; }
+contract Prcatice {
+    function a() public pure returns (uint, bool, uint) {
+        return (1, true, 2);
     }
 
-    function g(uint8 a, uint8 b) pure public returns (uint) {
-        return a - b;
-    }
-
-    function compare(uint8 a, uint8 b) pure public returns (string memory) {
-        require(a >= b, "The value of function f() and g() are different.");
-        
-        return "Same value";
+    function b() public pure returns (uint, bool, uint) {
+        (uint x, bool y, uint z) = a();
+        return (z, y, x);
     }
 }
-
-// 왜 인지 모르겠는데 공식 문서에서도 pure와 public의 순서가 저렇게 나와있습니다...
